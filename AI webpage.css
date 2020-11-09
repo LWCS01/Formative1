@@ -1,0 +1,33 @@
+.header {
+    padding: 20px; 
+    text-align: center; 
+    background: #ac71e4; 
+    color: white; 
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .main2 {
+    flex: 50%; 
+    background-color: hsl(288, 60%, 90%); 
+    padding: 20px; 
+  }
+  
+  
+  .main {
+    flex: 50%; 
+    background-color: rgb(243, 245, 247); 
+    padding: 20px; 
+  }
